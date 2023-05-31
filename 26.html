@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Colegio de Bachilleres Plantel 5</title>
+    <style>
+        body {
+            background-color: #f0fff0; /* Color de fondo verde claro */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        header {
+            background-color: #099e09; /* Color de fondo verde oscuro */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color: #048a04; /* Color de fondo verde medio */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .info-grid div {
+            background-color: #f0fff0; /* Color de fondo verde claro */
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .info-grid h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 2%;
+        }
+        .navegacion{
+	width: 1000px;
+	margin: 0px auto;
+	background: #155e0e;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #ffffff;
+	font-family: Arial,Black sans-serif;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #44b3f7;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #151515;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #f0fff0;
+	font-family: 'Open sans';
+	text-decoration: none;
+    align-items: center;
+}
+ 
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.info-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+margin-top: 20px;
+}
+
+.info-grid div {
+background-color: #d3ffce; /* Color de fondo verde claro */
+padding: 20px;
+border-radius: 5px;
+margin: 50px;
+padding: 20px;
+}
+
+.info-grid h2 {
+margin-top: 0;
+}
+
+    </style>
+</head>
+    <header>
+        <h1>Colegio de Bachilleres Plantel 5 del Estado de Chihuahua</h1>
+    </header>
+    
+    <nav class="navegacion">
+        <ul class="menu">
+            <li><a href="23.html">Inicio</a></li>
+            <li><a href="http://pagina.cobachih.edu.mx/web/plantel.php?plantel=5">Nosotros</a></li>
+            <li><a href="#">Conoce nuestro Plantel</a>
+                <ul class="submenu">
+                    <li><a href="25.html">Orientación</a></li>
+                    <li><a href="28.html">Biblioteca</a>
+                    <li><a href="26.html">Capacitaciones</a>
+                    <li><a href="24.html">Representativos</a>
+                    <li><a href="27.html">Paquetes Propedeuticos</a>
+                </ul>
+            </li>
+            <li><a href="#">Informacion</a>
+                <ul class="submenu">
+                    <li><a href="29.html">Plan de Estudios</a>
+                    <li><a href="30.html">Calendario Escolar</a>
+                </ul>
+            </li>
+            <li><a href="https://www.facebook.com/apachesCOBACH5">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="info-grid">
+        <div>
+            <h2>Dibujo Tecnico</h2>
+            <p>Su objetivo es utilizar el dibujo, como medio de comunicacion
+                universal, dentro del campo de las ciencias, las
+                artes y la tecnologia. Utilizando materiales
+                tradicionales y modernos, dentro de su adecuada
+                aplicacion practica.</p>
+            <img src="https://concepto.de/wp-content/uploads/2013/08/dibujo-3-e1551902669718.jpg" alt="Imagen 1" height="400px" width="500px"> 
+            
+        </div>
+        <div>
+            <h2>Laboratorio Clinico</h2>
+            <p>Su objetivo es que el estudiante desarrolle habilidades y destrezas
+                para el manejo de material, equipo y reactivos, asi
+                como la obtencion, manejo y conservacion de
+                muestras biologicas de acuerdo con las Normas
+                Oficiales Mexicanas (NOM) internacionales.</p>
+            <img src="https://laopcion.com.mx/assets/2015/november/02/elBjEkZrRZUk.jpg" alt="Imagen 1" height="400px" width="500px"> 
+            
+        </div>
+        <div>
+            <h2>Nutricion</h2>
+            <p>Su objetivo es formar estudiantes que cuenten con las suficientes
+                herramientas para auxiliar a
+                los profesionales de la salud. En las areas de
+                prevencion y cuidados nutricionales en
+                enfermos.</p>
+            <img src="https://laopcion.com.mx/assets/2016/february/29/32emb1.jpg" alt="Imagen 1" height="400px" width="500px"> 
+        </div>
+        <div>
+            <h2>Contabilidad</h2>
+            <p>Su objetivo es desarrollar competencias y habilidades practicas
+                para aplicar el proceso contable, elaborar estados
+                financieros, calcular costos, gastos, nomina,
+                aguinaldo, vacaciones, horas extra, impuestos, etc.
+                Te prepara para que en tu vida laboral y productiva
+                conozcas tus derechos y seas capaz de defenderlos
+                proporcionandote los conocimientos necesarios.</p>
+            <img src="https://uneg.edu.mx/wp-content/uploads/2021/01/5.-bachillerato-tecnico-en-contabilidad.jpg" alt="Imagen 1" height="400px" width="500px"> 
+            <title>Boton de Enlace Verde</title>
+            
+        </div>
+        <div>
+            <h2>Emprendimiento y Negocios</h2>
+            <p>Su objetivo es desarrollar en el alumno la capacidad y la actitud
+                como auxiliar de una micro y pequeña empresa, que
+                le permita responder eficientemente a las
+                exigencias legales, fiscales y mercantiles que se
+                presenten en la organizacion de la empresa.</p>
+            <img src="https://gacetaweb.cbachilleres.edu.mx/2020-gacetas/MARZO/gaceta-no3/jovenes-emprendedores/jovenes-index-notas/_MG_0086.JPG" alt="Imagen 1" height="400px" width="500px"> 
+            <title>Boton de Enlace Verde</title>
+            
+        </div>
+        <div>
+            <h2>Interpretacion y traduccion del idioma ingles</h2>
+            <p>Su objetivo es preparar al estudiante para desempeñar actividades
+                en puestos de servicios al publico y
+                administrativos, a traves de herramientas
+                lingüisticas que le permitan interactuar en
+                diferentes entornos, dentro del proceso laboral.</p>
+            <img src="https://learnacademy.cl/wp-content/uploads/2020/06/INTERPRETACION-O1-800x800.png" alt="Imagen 1" height="400px" width="500px"> 
+        </div>
+        <div>
+            <h2>Tecnologias de la informacion y la comunicacion</h2>
+            <p>Su objetivo es operar las herramientas de computo y elaborar
+                documentos, hojas de calculo
+                y presentaciones graficas mediante aplicaciones del
+                computo.</p>
+            <img src="https://www.digeig.gob.do/wp-content/uploads/2021/02/Tecnologia-de-la-Informacion-y-Comunicacion.png" alt="Imagen 1" height="400px" width="500px"> 
+        </div>
+</div>
+    </div>
+    <footer>
+        <p>Derechos reservados &copy; 2023 Plantel 5 - Colegio de bachilleres </p>
+    </footer>
+</body>
+</html>
